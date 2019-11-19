@@ -14,7 +14,6 @@ public class CheckBalancedBracket {
 			if(ch[i]=='['||ch[i]=='{'||ch[i]=='(')
 			{
 				stk.push(ch[i]);
-
 			}
 			else if(ch[i]==']')
 			{
